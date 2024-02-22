@@ -1,0 +1,30 @@
+.card-tasd{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fd384f;
+}
+
+.card-text{
+   font-size: 25px; 
+   color: black-;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-group{
+    gap: 20px;
+}
+
+.card{
+    border-color: rgb(255, 255, 255);
+    padding: 7px;
+    box-shadow: 7px 1px 37px; 
+
+}
