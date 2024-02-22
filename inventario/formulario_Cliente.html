@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario Cliente</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+            fieldset{
+                border: 1px solid #ccc;
+                padding: 20px;
+                width: 400px
+            }
+    </style>
+</head>
+<body>
+
+    <fieldset>
+        <legend>Registro Cliente</legend>
+
+    <center><form class="row g-3">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+          </div>&nbsp;
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+          </div>&nbsp;
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Femenino
+            </label>
+        </div>&nbsp;
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+            <label class="form-check-label" for="flexRadioDefault2">
+              Masculino
+            </label>
+        </div>&nbsp;
+        <div class="col-md-6">
+          <label for="inputEmail" class="form-label">Email: </label>
+          <input type="email" class="form-control" id="inputEmail">
+        </div>&nbsp;
+        <div class="col-12">
+          <label for="inputDireccion" class="form-label">Direccion: </label>
+          <input type="text" class="form-control" id="inputDireccion">
+        </div>&nbsp;
+        <div class="col-md-4">
+            <label for="inputDepartamento" class="form-label">Departamento</label>
+            <select id="inputDepartamento" class="form-select">
+              <option selected>Seleccionar...</option>
+              <option>AMAZONAS</option>
+                  <option>ANTIOQUIA</option>
+                  <option>ARAUCA</option>
+                  <option>ATLÁNTICO</option>
+                  <option>BOLÍVAR</option>
+                  <option>BOYACÁ</option>
+                  <option>CALDAS</option>
+                  <option>CAQUETÁ</option>
+                  <option>CASANARE</option>
+                  <option>CAUCA</option>
+                  <option>CESAR</option>
+                  <option>CHOCÓ</option>
+                  <option>CÓRDOBA</option>
+                  <option>CUNDINAMARCA</option>
+                  <option>DISTRITO CAPITAL</option>
+                  <option>GUAINÍA</option>
+                  <option>GUAVIARE</option>
+                  <option>HUILA</option>
+                  <option>LA GUAJIRA</option>
+                  <option>MAGDALENA</option>
+                  <option>META</option>
+                  <option>NARIÑO</option>
+                  <option>NORTE DE SANTANDER</option>
+                  <option>PUTUMAYO</option>
+                  <option>QUINDÍO</option>
+                  <option>RISARALDA</option>
+                  <option>SAN ANDRÉS Y PROVIDENCIA</option>
+                  <option>SANTANDER</option>
+                  <option>SUCRE</option>
+                  <option>TOLIMA</option>
+                  <option>VALLE</option>
+                  <option>VAUPÉS</option>
+                  <option>VICHADA</option>
+            </select>
+          </div>&nbsp;
+        <div class="col-md-4">
+          <label for="inputCiudad" class="form-label">Ciudad</label>
+          <select id="inputCiudad" class="form-select">
+            <option selected>Seleccionar...</option>
+            <option>Leticia</option>
+            <option>Medellín</option>
+            <option>Arauca</option>
+            <option>Barranquilla</option>
+            <option>Cartagena</option>
+            <option>Tunja</option>
+            <option>Manizales</option>
+            <option>Florencia</option>
+            <option>Yopal</option>
+            <option>Popayán</option>
+            <option>Valledupar</option>
+            <option>Quibdó</option>
+            <option>Montería</option>
+            <option>Bogotá</option>
+            <option>Inírida</option>
+            <option>San José de Guaviare</option>
+            <option>Neiva</option>
+            <option>Rioacha</option>
+            <option>Santa Marta</option>
+            <option>Villavicencio</option>
+            <option>San Juan de Pasto</option>
+            <option>San José de Cúcuta</option>
+            <option>Mocoa</option>
+            <option>Armemia</option>
+            <option>Pereira</option>
+            <option>San Andrés</option>
+            <option>Bucaramanga</option>
+            <option>Sincelejo</option>
+            <option>Ibagué</option>
+            <option>Cali</option>
+            <option>Mitú</option>
+            <option>Puerto Carreño</option>
+          </select>
+        </div>&nbsp;
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Registrar</button>
+        </div>
+      </form></center>
+      </fieldset>
+  
+      &nbsp;<input type="button" value="Página anterior" onClick="history.go(-1);">
+
+</body>
+</html> 
