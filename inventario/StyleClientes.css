@@ -1,0 +1,55 @@
+body {
+    background-image: url("IMG_Keiler/6057485.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+fieldset{
+    background-color: rgba(0, 0, 0, 0.586);
+    color: aliceblue;
+}
+
+form {text-align: center;}
+
+.bt2.btw:hover{background-color:#5dd475;}
+
+.bt2.btw{
+  background-color:rgb(230, 218, 218);
+  color:rgb(0, 0, 0);
+  font-size:18px;
+  cursor: pointer;
+}
+
+.bt1.btw {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background-color:rgba(0, 255, 255, 0.222);
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+}
+  
+.bt1.btw:hover {
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    text-align: left;
+  }
